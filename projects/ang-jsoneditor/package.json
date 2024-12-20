@@ -1,11 +1,11 @@
 {
-  "name": "ang-jsoneditor",
-  "version": "3.1.1",
+  "name": "@kv-systems/ang-jsoneditor",
+  "version": "4.0.3",
   "license": "MIT",
-  "homepage": "https://github.com/mariohmol/ang-jsoneditor",
+  "homepage": "https://github.com/kvsystems/ang-jsoneditor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mariohmol/ang-jsoneditor.git"
+    "url": "https://github.com/kvsystems/ang-jsoneditor.git"
   },
   "author": "Mario Mol <mariohmol@gmail.com>, Manish Sodavadiya <manish_it56@yahoo.com>",
   "keywords": [
