@@ -1,6 +1,6 @@
 {
   "name": "@kv-systems/ang-jsoneditor",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "private": false,
   "repository": {
     "type": "git",
@@ -15,6 +15,8 @@
     "build:lib": "ng build --project ang-jsoneditor",
     "watch": "npm run build:lib -- --watch",
     "build:full": "npm run build:lib && npm run build:app",
+    "publishnpm": "cp README.md projects/ang-jsoneditor/README.md && npm run build:lib && cd dist/ang-jsoneditor",
+    "unpublish": "npm deprecate -f 'ang-jsoneditor@1.9.3' 'this package has been deprecated'",
     "test": "npm run test:dev && npm run e2e",
     "test:dev": "ng test --project ang-jsoneditor-demo",
     "test:unit": "ng test",
@@ -32,8 +34,9 @@
     "@angular/platform-browser": "^19.0.5",
     "@angular/platform-browser-dynamic": "^19.0.5",
     "@angular/router": "^19.0.5",
-    "@kv-systems/ng-packagr": "^19.1.0-next.1",
     "jsoneditor": "9.10.2",
+    "ng-packagr": "^19.0.1",
+    "publishnpm": "^0.0.4",
     "rxjs": "*",
     "tslib": "^2.3.0",
     "webpack": "^5.88.2",
